@@ -1,0 +1,62 @@
+body {
+  background-color: #323232;
+  color: aliceblue;
+  margin: 0;
+}
+body,
+input,button {
+  font-family: "Press Start 2P", cursive;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header > input {
+  padding: 0px 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+h1 {
+  padding: 40px;
+}
+.horizontal_line {
+  background-color: #fff;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+}
+.secretGuess {
+  height: 60px;
+  text-align: center;
+  width: 100px;
+  margin-top: -50px;
+  font-size: xx-large;
+}
+.displayAllCalc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.userInput {
+  margin-top: 80px;
+  height: 60px;
+  text-align: center;
+  width: 100px;
+  font-size: xx-large;
+  background-color: #323232;
+  border: 3px solid #eee;
+  color: #fff;
+}
+h3 {
+  padding: 40px 0px;
+  margin-top: 40px;
+}
+.checkBtn{
+  margin-top: 20px;
+  padding: 12px;
+  display: block;
+}
